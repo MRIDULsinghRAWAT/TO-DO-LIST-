@@ -1,0 +1,118 @@
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #add8e6; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for app */
+.container {
+  background: #f0f8ff; /* Light blue-white background */
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #4682b4; /* Light blue color */
+}
+
+/* Input box */
+#taskinput {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #87ceeb; /* Light blue border */
+  border-radius: 6px;
+  outline: none;
+}
+
+#taskinput:focus {
+  border-color: #4682b4; /* Darker light blue border on focus */
+}
+
+/* Add button */
+#addbutton {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background: #87ceeb; /* Light blue background */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#addbutton:hover {
+  background: #4682b4; /* Darker light blue background on hover */
+}
+
+/* Task list */
+ul {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Individual task */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0f8ff; /* Light blue-white background */
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #add8e6; /* Light blue background on hover */
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Buttons inside task */
+li button {
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 8px;
+  transition: 0.3s;
+}
+
+/* Toggle button (Done/Undo) */
+li button:first-of-type {
+  background: #87ceeb; /* Light blue background */
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background: #4682b4; /* Darker light blue background on hover */
+}
+
+/* Delete button */
+li button:last-of-type {
+  background: #b0c4de; /* Light blue-gray background */
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background: #778899; /* Darker light blue-gray background on hover */
+}
+
+
+/* Is updated code mein, mainne light blue theme ke liye colors ko adjust kiya hai. Aap apni pasand ke mutabiq aur changes kar sakte hain. */
